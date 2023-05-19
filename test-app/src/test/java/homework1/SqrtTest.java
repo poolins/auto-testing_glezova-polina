@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class SqrtTest extends CalculatorTest {
+class SqrtTest extends CalculatorTest {
     @ParameterizedTest
     @ValueSource(doubles = {0, 1, 3600, 845, 12.34, Double.MAX_VALUE, Double.MIN_VALUE})
     void testEquivalenceClasses(double num) {

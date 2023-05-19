@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-public class IsNegativeTest extends CalculatorTest {
+class IsNegativeTest extends CalculatorTest {
     @ParameterizedTest
     @ValueSource(ints = {-1, -1000, Integer.MIN_VALUE})
     void testNegatives(int num) {

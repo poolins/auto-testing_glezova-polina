@@ -3,7 +3,7 @@ package homework1;
 import com.epam.tat.module4.Calculator;
 import org.junit.jupiter.api.BeforeAll;
 
-public class CalculatorTest {
+class CalculatorTest {
     protected static Calculator calc;
     protected static final double DELTA = 1e-15;
 
