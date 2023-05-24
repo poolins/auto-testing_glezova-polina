@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
+<suite name="Suite_UI_3">
+    <test name="UITests with PageObject">
+        <packages>
+            <package name="homework3"/>
+        </packages>
+    </test>
+</suite>
